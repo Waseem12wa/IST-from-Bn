@@ -34,4 +34,30 @@ This project implements a **non-recursive, parallel algorithm** to construct `n�
 4. **IST Construction**: Build the trees from the parent mappings.
 
 ## 📂 Folder Structure (Sample)
+├── src/
+│ ├── main.c
+│ ├── bn_generator.c
+│ ├── ist_constructor.c
+│ └── ...
+├── include/
+│ └── *.h
+├── data/
+│ └── bn_graph_partitions/
+├── README.md
+└── Makefile
+
+
+## 📈 Future Work
+
+- Extend to **(n, k)-bubble-sort graphs**.
+- Explore ISTs in **butterfly** and other topological networks.
+- Optimize METIS integration for large-scale systems.
+
+## 👥 Authors
+
+- Waseem And Asad
+- Based on methodology by Kao et al. (2019)
+
+
+
 
