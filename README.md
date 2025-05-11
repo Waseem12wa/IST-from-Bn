@@ -33,19 +33,6 @@ This project implements a **non-recursive, parallel algorithm** to construct `n�
    - Runs `Parent1(v, t, n)` to assign parent nodes.
 4. **IST Construction**: Build the trees from the parent mappings.
 
-## 📂 Folder Structure (Sample)
-├── src/
-│ ├── main.c
-│ ├── bn_generator.c
-│ ├── ist_constructor.c
-│ └── ...
-├── include/
-│ └── *.h
-├── data/
-│ └── bn_graph_partitions/
-├── README.md
-└── Makefile
-
 
 ## 📈 Future Work
 
